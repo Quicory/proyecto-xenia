@@ -449,6 +449,36 @@ footer{background:url(img/teclado.jpg);}
   display: inline-block;
 }
 
+.cont-slide{
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.cont-slide p{
+  font-style: italic;
+  font-weight: 300;
+  columns: #585858;
+  width: 80%;
+  text-align: center;
+}
+.cont-slide img{
+  vertical-align: top;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.cont-slide h4{
+  color:rgba(75, 0, 224, 0.698);
+}
+
+
 footer p{
   margin-top:var(--espacios);
 }
